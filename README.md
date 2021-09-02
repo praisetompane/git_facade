@@ -12,7 +12,7 @@ bash facade over git to facilitate faster interaction with Git
 * installs a .git_facade "module" into your home directory
 * adds this module to your `zsh` environment (~/.zshenv file)
 
-## syntax defintion
+# syntax defintion
 ### each function follows this notation: `goaf`, where `a` and `f` are optional
 ### notation definition
 * g := git 
@@ -26,13 +26,15 @@ bash facade over git to facilitate faster interaction with Git
     * r := rebase
     * d := delete
     * ph := push
+    * pl := pull
     * cl := clean
 * f := git flag(s)
     * f := force
     * h := hard
     * n := new
-#### Usage In Terminal
+#### usage examp
 
 ```zsh
-    gcp "commit message for current changed files"
+    gbcph "commit message for current changed files"
+    // reads git branch commit push
 ```
