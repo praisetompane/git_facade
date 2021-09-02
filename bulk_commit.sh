@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/zsh
 #quick utility to bulk apply a commit message
     #useful when making the same change to sub repos
 

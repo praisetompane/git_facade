@@ -1,15 +1,28 @@
-install_dir="$(pwd)"
-echo $install_dir
-z_shell_config=~/.zshrc
-bash_config=~/.bash_profile
+z_shell_environment=~/.zshenv #sub with ~/.bashrc if you use bash
+git_facade=~/.git_facade
 
-if [ -f "$z_shell_config" ]; then
-    echo "" >> $z_shell_config
-    echo "export PATH=$install_dir:$"PATH"" >> $z_shell_config
-    echo "Updated Z Shell config"
-fi
 
-if [ -f "$bash_config" ]; then
-    echo "export PATH=$install_dir:$"PATH"" >> $bash_config
-    echo "Updated Bash config"
+rm $git_facade
+for entry in "."/g*
+do
+    echo "" >> $git_facade
+    cat $entry >> $git_facade
+    echo "" >> $git_facade
+done
+
+if [ -f "$z_shell_environment" ]; 
+    then
+        if grep git_facade $z_shell_environment
+            then
+                echo "updated git_facade module"
+                echo "did not update .zshenv as $git_facade already installed"
+            else
+                echo "" >> $z_shell_environment
+                echo "source $git_facade" >> $z_shell_environment
+                echo "updated .zshenv"
+        fi
+    else
+        touch $z_shell_environment
+        echo "source $git_facade" >> $z_shell_environment
+        echo "created .zshenv"
 fi
