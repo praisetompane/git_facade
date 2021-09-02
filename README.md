@@ -1,27 +1,38 @@
 # git_facade
 bash facade over git to facilitate faster interaction with Git
 
-### Installation
-#### run the script below
-```bash
+# installation
+## run the script below
+```zsh
     ./install.sh
 ```
-#### You should see the output below
-```bash
-    Updated Z Shell config
-    Updated Bash config
-```
-#### Open a new terminal and your good to go
-### Manual Installation
-* Add line below in your .bash_profile or .zshrc.  
-* Replace `PATH_TO_REPO_HOME_FOLDER` with location of repo folder
+## open a new terminal and your good to go
 
-```bash
-export PATH="PATH_TO_REPO_HOME_FOLDER/git_facade:$PATH"
-```
+## What is it doing to your system?
+* installs a .git_facade "module" into your home directory
+* adds this module to your `zsh` environment (~/.zshenv file)
 
-### Example Usage In Terminal
+## syntax defintion
+### each function follows this notation: `goaf`, where `a` and `f` are optional
+### notation definition
+* g := git 
+* o := git object 
+    * b := branch 
+    * r := repo
+* a := git action(s) 
+    * c := commit 
+    * c := checkout
+    * a := amend
+    * r := rebase
+    * d := delete
+    * ph := push
+    * cl := clean
+* f := git flag(s)
+    * f := force
+    * h := hard
+    * n := new
+#### Usage In Terminal
 
-```bash
-    gcp.sh "commit message for current changed files"
+```zsh
+    gcp "commit message for current changed files"
 ```
