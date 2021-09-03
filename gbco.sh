@@ -1,7 +1,7 @@
 #!/bin/zsh
 #quick utility to git checkout new branch
 
-gbc() {
+gbco() {
     branch_name=$1
     git checkout $branch_name
 }
