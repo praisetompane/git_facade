@@ -2,7 +2,11 @@ z_shell_environment=~/.zshenv #sub with ~/.bashrc if you use bash
 git_facade=~/.git_facade
 
 
-rm $git_facade
+if [ -d $git_facade ];
+then
+    rm $git_facade
+fi
+
 for entry in "."/g*
 do
     echo "" >> $git_facade
