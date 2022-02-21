@@ -1,6 +1,8 @@
 # git_facade
-bash facade over git to facilitate faster interaction with Git
+shell(zsh, bash) facade over git to facilitate faster interaction with Git
 
+# dependencies
+* zshell
 # installation
 ## run the script below
 ```zsh
