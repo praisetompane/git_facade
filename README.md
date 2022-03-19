@@ -23,6 +23,7 @@ shell(zsh, bash) facade over git to facilitate faster interaction with Git
     * r := repo
 * a := git action(s) 
     * c  := commit 
+    * ad := add
     * co  := checkout
     * a  := amend
     * rb := rebase
