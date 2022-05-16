@@ -33,6 +33,7 @@ shell(zsh, bash) facade over git to facilitate faster interaction with Git
     * cl := clean
     * rs := reset
     * st := status
+    * cg := config
 * f := git flag(s)
     * f := force
     * h := hard
