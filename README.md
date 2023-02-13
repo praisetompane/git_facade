@@ -21,11 +21,12 @@ shell(zsh, bash) facade over git to facilitate faster interaction with Git
 * o := git object 
     * b := branch 
     * r := repo
+    * c  := commit 
 * a := git action(s) 
     * c  := commit 
     * ad := add
     * co  := checkout
-    * a  := amend
+    * am  := amend
     * rb := rebase
     * d  := delete
     * ph := push
