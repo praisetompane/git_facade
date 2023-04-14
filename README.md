@@ -5,8 +5,8 @@ shell(zsh, bash) facade over git to facilitate faster interaction with Git
 * zshell
 # installation
 ## run the script below
-```zsh
-    ./install.sh
+```shell
+foo@bar ./install.sh
 ```
 ## open a new terminal and your good to go
 
@@ -39,9 +39,22 @@ shell(zsh, bash) facade over git to facilitate faster interaction with Git
     * f := force
     * h := hard
     * n := new
-#### usage examp
+#### usage example
 
-```zsh
-    gbcph "commit message for current changed files"
-    // reads git branch commit push
+```shell
+foo@bar gbst
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        _git_history_cleanup.sh
+        _grlos.sh
+
+no changes added to commit (use "git add" and/or "git commit -a")
 ```
