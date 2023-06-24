@@ -1,9 +1,9 @@
 z_shell_environment=~/.zshenv #sub with ~/.bashrc if you use bash
 git_facade=~/.git_facade
 
-
-if [ -d $git_facade ];
+if [ -e $git_facade ];
 then
+    echo "deleting current git_facade module"
     rm $git_facade
 fi
 

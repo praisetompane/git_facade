@@ -6,7 +6,7 @@ shell(zsh, bash) facade over git to facilitate faster interaction with Git
 # installation
 ## run the script below
 ```shell
-foo@bar ./install.sh
+./install.sh
 ```
 ## open a new terminal and your good to go
 
