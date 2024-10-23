@@ -4,6 +4,5 @@
 
 gbcln() {
   git remote prune origin
-  git branch --merged >/tmp/merged-branches && \
-    vi /tmp/merged-branches && xargs git branch -d </tmp/merged-branches
+  git branch -d $(git branch --merged=main | grep -v main)
 }

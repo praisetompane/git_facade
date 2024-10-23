@@ -31,7 +31,7 @@ foo@bar ./install.sh
     * d  := delete
     * ph := push
     * pl := pull
-    * cl := clean
+    * cln := clean
     * rs := reset
     * st := status
     * cg := config
