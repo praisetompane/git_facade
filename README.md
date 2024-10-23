@@ -31,7 +31,7 @@ shell(zsh, bash) facade over git to facilitate faster interaction with Git
     * d  := delete
     * ph := push
     * pl := pull
-    * cl := clean
+    * cln := clean
     * rs := reset
     * st := status
     * cg := config
