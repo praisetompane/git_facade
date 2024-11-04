@@ -1,49 +1,25 @@
 # git_facade
-shell(zsh, bash) facade over git to facilitate faster interaction with Git
+facade to reduce git command ceremony typing.
 
-# dependencies
-* zshell
-# installation
-## run the script below
+## dependencies
+* zshell 
+
+## setup instructions
+- execute the script below
 ```shell
 ./install.sh
 ```
-## open a new terminal and your good to go
 
-## What is it doing to your system?
-* installs a .git_facade "module" into your home directory
-* adds this module to your `zsh` environment (~/.zshenv file)
+- reload open terminals and your good to go
 
-# syntax defintion
-### each function follows this notation: `goaf`, where `a` and `f` are optional
-### notation definition
-* g := git 
-* o := git object 
-    * b := branch 
-    * r := repo
-    * c  := commit 
-* a := git action(s) 
-    * c  := commit 
-    * ad := add
-    * co  := checkout
-    * am  := amend
-    * rb := rebase
-    * d  := delete
-    * ph := push
-    * pl := pull
-    * cln := clean
-    * rs := reset
-    * st := status
-    * cg := config
-* f := git flag(s)
-    * f := force
-    * h := hard
-    * n := new
-#### usage example
+- test example
 
 ```shell
-foo@bar gbst
-On branch master
+# command:
+gbst
+
+# output:
+On branch main
 Your branch is up to date with 'origin/master'.
 
 Changes not staged for commit:
@@ -58,3 +34,29 @@ Untracked files:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 ```
+
+## syntax defintion
+- each function follows this notation: `goaf`, where `a` and `f` are optional
+- notation glossary:
+    * g := git 
+    * o := git object 
+        * b := branch 
+        * r := repo
+        * c  := commit 
+    * a := git action(s) 
+        * c  := commit 
+        * ad := add
+        * co  := checkout
+        * am  := amend
+        * rb := rebase
+        * d  := delete
+        * ph := push
+        * pl := pull
+        * cln := clean
+        * rs := reset
+        * st := status
+        * cg := config
+    * f := git flag(s)
+        * f := force
+        * h := hard
+        * n := new
