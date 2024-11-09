@@ -41,4 +41,5 @@ gbadcph() {
     git add .
     git push --set-upstream origin $branch_name
     git commit -m"$description"
+    git push
 }
