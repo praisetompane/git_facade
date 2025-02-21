@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-#quick util to correct git commit email addresses and author
+# quick util to correct git commit email addresses and author
 
 gc_fix_history() {
     git filter-branch --env-filter '

@@ -1,7 +1,7 @@
 #!/bin/zsh
-#quick utility to initialize git repo
+# quick utility to initialize git repo
 
-grad() {
+gri() {
     repo_url=$1
     git init
     git commit -m"initial commit" -m"initial setup"

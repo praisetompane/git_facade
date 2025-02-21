@@ -3,7 +3,7 @@
 ##  Objective:
 Facade to reduce git command typing ceremony.
 
-## Dependencies
+## Dependencies:
 - zshell 
 
 ## Setup Instructions:
@@ -14,6 +14,7 @@ Facade to reduce git command typing ceremony.
 
 - Reload open terminals and you are good to go.
 
+## Usage:
 - Example:
 
     ```shell
@@ -37,28 +38,37 @@ Facade to reduce git command typing ceremony.
     no changes added to commit (use "git add" and/or "git commit -a")
     ```
 
-## Syntax Defintion
-- each function follows this notation: `goaf`, where `a` and `f` are optional
-- notation glossary:
-    * g := git 
-    * o := git object 
-        * b := branch 
-        * r := repo
-        * c  := commit 
-    * a := git action(s) 
-        * c  := commit 
-        * ad := add
-        * co  := checkout
-        * am  := amend
-        * rb := rebase
-        * d  := delete
-        * ph := push
-        * pl := pull
-        * cln := clean
-        * rs := reset
-        * st := status
-        * cg := config
-    * f := git flag(s)
-        * f := force
-        * h := hard
-        * n := new
+## Syntax Defintion:
+- Each function follows this notation: `goaafl`:
+    - `g` := git object
+    - `o` := git object
+    - These are optional:
+        - `aa`:= git action represented as two letters
+        - `fl`:= flags
+- Notation glossary:
+    - g := git 
+    - o := git object 
+        - b := branch 
+        - r := repo
+        - c := commit 
+    - a := git action(s) 
+        - branch:
+            - co := checkout
+            - cl := clean
+            - df := diff
+            - dl := delete
+            - ph := push
+            - pl := pull
+            - rb := rebase
+            - rs := reset
+            - st := status
+        - commit:
+            - am := amend
+            - ph := push
+        - repo:
+            - i  := initialize
+    - f := git flag(s)
+        - c := continue
+        - f := force
+        - h := hard
+        - n := new

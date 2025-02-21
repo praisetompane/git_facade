@@ -1,5 +1,5 @@
 #!/bin/zsh
-#quick utility to add, commit files and push files
+#q uick utility to add, commit files and push files
 
 # commit message structure:
 # <type>[optional scope]: <description>
@@ -32,7 +32,7 @@
 # usage example:
 # gbadcph "feat(test_feature)"" "adding a test feature"
 
-gbadcph() {
+gcph() {
     description=$1
 
     branch="$(git symbolic-ref HEAD 2>/dev/null)"
