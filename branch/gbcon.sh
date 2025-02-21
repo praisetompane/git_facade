@@ -1,5 +1,5 @@
 #!/bin/zsh
-#quick utility to git checkout new branch
+# quick utility to git checkout new branch
 
 gbcon() {
     branch_name=$1

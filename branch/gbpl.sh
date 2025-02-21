@@ -1,5 +1,5 @@
 #!/bin/zsh
-#quick utility to get git pull
+# quick utility to get git pull
 
 gbpl() {
     git pull

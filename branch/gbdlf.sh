@@ -1,7 +1,7 @@
 #!/bin/zsh
-#quick utility to force delete git branch
+# quick utility to force delete git branch
 
-gbdf() {
+gbdlf() {
     source_branch=$1
     git branch -D $source_branch
 }

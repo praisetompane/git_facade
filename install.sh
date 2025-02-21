@@ -11,7 +11,7 @@ if [ -e $git_facade ]; then
     rm $git_facade
 fi
 
-for entry in "."/g*; do
+for entry in **/g*; do
     echo "" >>$git_facade
     cat $entry >>$git_facade
     echo "" >>$git_facade
