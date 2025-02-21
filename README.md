@@ -1,44 +1,43 @@
 # git_facade
-git facade to reduce command ceremony typing.
 
-## dependencies
-* zshell
-* bash
+##  Objective:
+Facade to reduce git command typing ceremony.
 
-## setup instructions:
-- execute the script below
-```shell
-foo@bar ./install.sh
-```
+## Dependencies
+- zshell 
 
-- reload open terminals and your good to go
+## Setup Instructions:
+- Execute the script below.
+    ```shell
+    ./install.sh
+    ```
 
-- test example
+- Reload open terminals and you are good to go.
 
-```shell
-# command:
-foo@bar gbst
+- Example:
 
-# output:
-On branch master
-Your branch is up to date with 'origin/master'.
+    ```shell
+    # command:
+    gbst
 
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-        modified:   README.md
+    # output:
+    On branch main
+    Your branch is up to date with 'origin/master'.
 
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-        _git_history_cleanup.sh
-        _grlos.sh
+    Changes not staged for commit:
+    (use "git add <file>..." to update what will be committed)
+    (use "git restore <file>..." to discard changes in working directory)
+            modified:   README.md
 
-no changes added to commit (use "git add" and/or "git commit -a")
-```
+    Untracked files:
+    (use "git add <file>..." to include in what will be committed)
+            _git_history_cleanup.sh
+            _grlos.sh
 
+    no changes added to commit (use "git add" and/or "git commit -a")
+    ```
 
-
-## syntax defintion
+## Syntax Defintion
 - each function follows this notation: `goaf`, where `a` and `f` are optional
 - notation glossary:
     * g := git 
