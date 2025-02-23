@@ -50,7 +50,8 @@ Facade to reduce git command typing ceremony.
     - o := git object 
         - b := branch 
         - r := repo
-        - c := commit 
+        - c := commit
+        - s := stash
     - a := git action(s) 
         - branch:
             - co := checkout
@@ -68,6 +69,7 @@ Facade to reduce git command typing ceremony.
         - repo:
             - i  := initialize
     - f := git flag(s)
+        - a := all
         - c := continue
         - f := force
         - h := hard
