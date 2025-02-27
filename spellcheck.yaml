@@ -1,0 +1,14 @@
+matrix:
+  - name: English
+    aspell:
+      lang: en
+      ignore-case: false
+    dictionary:
+      wordlists:
+        - .spellcheck_exceptions_dictionary.txt
+      encoding: utf-8
+    sources:
+      - "**/*.md"
+      - "**/*.tex"
+      - "**/*.txt"
+    default_encoding: utf-8

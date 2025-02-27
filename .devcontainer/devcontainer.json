@@ -1,0 +1,12 @@
+{
+	"name": "git_facade",
+	"image": "mcr.microsoft.com/vscode/devcontainers/base",
+	"customizations": {
+		"vscode": {
+			"extensions": [],
+			"settings": {}
+		}
+	},
+	"workspaceMount": "source=${localWorkspaceFolder},target=/git_facade,type=bind,consistency=delegated",
+	"workspaceFolder": "/git_facade"
+}

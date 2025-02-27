@@ -1,0 +1,19 @@
+name: git_facade
+
+on:
+  push:
+      branches: [main]
+  pull_request:
+      branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check Repository
+      uses: actions/checkout@v4
+
+    - name: Spell Check
+      uses: rojopolis/spellcheck-github-actions@0.45.0
+      with:
+          output_file: spellcheck-output.txt
