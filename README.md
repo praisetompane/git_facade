@@ -6,7 +6,7 @@
 
 ## Syntax Definition
 - Each function follows this notation: `goaafl`:
-    - `g` := git object
+    - `g` := git. this does not change
     - `o` := git object
     - These are optional:
         - `aa`:= git action represented as two letters
@@ -42,7 +42,7 @@
         - n := new
 
 ## Dependencies
-- zshell 
+- zsh
 
 ## Setup Instructions
 - Execute the script below.

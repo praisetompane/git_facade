@@ -1,4 +1,4 @@
-#    setup scricpt to install the git_facade module
+#    setup script to install the git_facade module
 #    output:
 #        - installs a .git_facade "module" into your home directory.
 #        - adds this module to your `zsh` environment (~/.zshenv file).
