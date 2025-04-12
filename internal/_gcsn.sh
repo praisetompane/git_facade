@@ -1,4 +1,4 @@
-#!/bin/zsh
+
 # utility to sign old commits after {hash}
 # example: git rebase --exec 'git commit --amend --no-edit -n -S' -i 2055243e72c2e9a6dea827cc7975ad6d157e5f2d
 # References: 

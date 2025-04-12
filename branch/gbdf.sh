@@ -1,6 +1,4 @@
-#!/bin/zsh
-# quick utility to get git diff
-
 gbdf() {
+    # quick utility to get git diff
     git diff
 }

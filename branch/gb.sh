@@ -1,6 +1,4 @@
-#!/bin/zsh
-# quick utility to get git branch
-
 gb() {
+    # quick utility to get git branch
     git branch
 }

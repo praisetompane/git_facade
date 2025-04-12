@@ -1,6 +1,4 @@
-#!/bin/zsh
-# quick utility to list git stashes
-
 gshl() {
+    # quick utility to list git stashes
     git stash list
 }

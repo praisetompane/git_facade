@@ -1,4 +1,4 @@
-#!/bin/zsh
+
 # utility to sign old commits after {hash}
 # example: git -c rebase.instructionFormat='%s%nexec GIT_COMMITTER_DATE="%cD" GIT_AUTHOR_DATE="%aD" git commit --amend --no-edit -n -S' rebase -i f49e7269e907987077b733fc0a3bc7a01bfb3b26
 #          git -c rebase.instructionFormat='%s%nexec GIT_COMMITTER_DATE="%cD" GIT_AUTHOR_DATE="%aD" git commit --amend --no-edit -n -S' rebase -i --root

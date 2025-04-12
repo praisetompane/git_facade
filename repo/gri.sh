@@ -1,7 +1,5 @@
-#!/bin/zsh
-# quick utility to initialize git repo
-
 gri() {
+    # quick utility to initialize git repo
     repo_url=$1
     git init
     git add .

@@ -1,6 +1,4 @@
-#!/bin/zsh
-# quick utility to get git status
-
 gbst() {
+    # quick utility to get git status
     git status
 }
