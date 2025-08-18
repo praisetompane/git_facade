@@ -12,19 +12,20 @@
         - `aa`:= git action represented as two letters
         - `fl`:= flags
 - Notation glossary:
-    - g := git 
-    - o := git object 
-        - b := branch 
+    - g := git
+    - o := git object
+        - b := branch
         - r := repo
         - c := commit
         - s := stash
-    - a := git action(s) 
+    - a := git action(s)
         - branch:
-            - co := checkout
             - cl := clean
+            - co := checkout
             - df := diff
             - dl := delete
             - ph := push
+            - pp := pop
             - pl := pull
             - rb := rebase
             - rs := reset
@@ -33,7 +34,7 @@
             - am := amend
             - ph := push
         - repo:
-            - i  := initialize
+            - cr := create
     - f := git flag(s)
         - a := all
         - c := continue

@@ -1,4 +1,4 @@
 gbphf() {
-    # quick utility to git force push
+    # utility to force push committed changes.
     git push -f
 }

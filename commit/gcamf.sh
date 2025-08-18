@@ -1,5 +1,5 @@
 gcamf() {
-    # quick utility to add and ammend git commit
+    # utility to add files and ammend commit.
 
     # parameters:
     # commit_date = date to ammend commit to

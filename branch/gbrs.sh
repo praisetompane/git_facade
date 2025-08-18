@@ -1,4 +1,4 @@
 gbrs() {
-    # quick utility to get git status
+    # utility to reset repository.
     git reset --hard
 }

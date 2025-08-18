@@ -1,4 +1,4 @@
 gbst() {
-    # quick utility to get git status
+    # utility to get branch status.
     git status
 }

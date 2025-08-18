@@ -1,5 +1,5 @@
 gbpl() {
-    # quick utility to get git pull
+    # utility to pull changes.
     git pull
 }
 

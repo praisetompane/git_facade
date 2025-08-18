@@ -1,5 +1,5 @@
 gcph() {
-    #q uick utility to add, commit files and push files
+    # utility to add, commit and push files
 
     # commit message structure:
     # <type>[optional scope]: <description>

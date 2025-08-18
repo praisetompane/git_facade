@@ -1,4 +1,4 @@
 gbdf() {
-    # quick utility to get git diff
+    # utility to list branch differences.
     git diff
 }
