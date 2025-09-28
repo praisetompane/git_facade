@@ -1,4 +1,4 @@
 gsls() {
-    # quick utility to list git stashes
+    # Utility to list git stashes.
     git stash list
 }

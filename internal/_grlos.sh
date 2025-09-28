@@ -1,9 +1,9 @@
 grlos() {
+	# Utility to get list of git repository objects by size.
 	# All credit goes to https://gist.github.com/magnetikonline for this code
 	# repo: https://gist.github.com/magnetikonline/dd5837d597722c9c2d5dfa16d8efe5b9
 	# changes: renamed function from main to grlos
 	# 		   changed function definition from function main to grlos()
-	# quick utility to get list of git repository objects by size
 
 	local tempFile=$(mktemp)
 

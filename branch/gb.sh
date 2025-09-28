@@ -1,4 +1,4 @@
 gb() {
-    # quick utility to get git branch
+    # Utility to get git branch.
     git branch
 }

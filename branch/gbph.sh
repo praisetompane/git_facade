@@ -1,4 +1,4 @@
 gbph() {
-    # quick utility to git push
+    # Utility to git push.
     git push
 }

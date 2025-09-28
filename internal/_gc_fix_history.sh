@@ -1,5 +1,5 @@
 gc_fix_history() {
-    # quick util to correct git commit email addresses and author
+    # Utility to correct git commit email addresses and author
     git filter-branch --env-filter '
 
     OLD_EMAIL_1="praisetompane@gmail.com"

@@ -1,5 +1,5 @@
-gri() {
-    # quick utility to initialize git repo
+grin() {
+    # Utility to initialize a new repository.
     repo_url=$1
     git init
     git add .
