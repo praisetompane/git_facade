@@ -32,13 +32,14 @@ gcph() {
     # usage example:
     # gbadcph "feat(test_feature)"" "adding a test feature"
 
-    description=$1
+    title=$1
+    description=$2
 
     branch="$(git symbolic-ref HEAD 2>/dev/null)"
     branch_name=${branch##refs/heas/}
 
     git add .
     git push --set-upstream origin $branch_name
-    git commit -m"$description"
+    git commit -m "$title" -m"$description"
     git push
 }
